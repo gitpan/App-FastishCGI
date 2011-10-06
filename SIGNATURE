@@ -1,0 +1,61 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.68.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 0d6f2143996d0fe4c8dfb0db81b73c51823a7d40 Build.PL
+SHA1 2e9ddd1e1af8acd65688ac57e811f773c13b3c25 Changes
+SHA1 486bc34cef7d5d09102babb26e5a529b040ff9c8 LICENSE
+SHA1 62a403341cb44a832e8803c260c6c4304a61ef2f MANIFEST
+SHA1 6b1e9c606090439c5e550e209adb0d9c6afd080a META.json
+SHA1 d73a7c666dc33fa6c78e143ede004bd25f66512d README.pod
+SHA1 a8fac41d7d75dddcf6a51d3cb5871c3bb8c6c408 bin/fastishcgi
+SHA1 99e9ca8e27463cde7890cb561bf85db6ad15bc52 debian/changelog
+SHA1 d3964f9dad9f60363c81b688324d95b4ec7c8038 debian/compat
+SHA1 6f0dd99a79afad2429023ef183f1c89a37b7601d debian/control
+SHA1 f8b04122d7a7c942eb5bea0b910a5311d79c4da1 debian/copyright
+SHA1 2562abf5ffc3b78d67b75cda3398217b296d1c91 debian/fastishcgi.docs
+SHA1 5f6760c832506a7214040149922eca574c218d4c debian/rules
+SHA1 a5359c00e3fdf9b1a3ab4928fd373dcfe7f1327f debian/watch
+SHA1 9a2a113ade81a5653a4f622c626675877fd134e9 dist.ini
+SHA1 793d299390fef4525339114d70a3568dacca89e1 etc/fastishcgi.service
+SHA1 1189a24f491cca7f79ef0929c64ed515273b29d5 lib/App/FastishCGI.pm
+SHA1 11800f28abc3fdc8029b8973ce2d89544aac8835 t/00-compile.t
+SHA1 b0f2ac0b28f663d98de8369e26c2dc3fd3d4e52d xt/author/critic.t
+SHA1 3f8a0a01395cf0ffb2f264d208b5ad4390e4261b xt/perlcriticrc
+SHA1 ff40a14d2d4b2fb9b93bf1324632dc9b4efafacc xt/perltidyrc
+SHA1 28ef20a73b7cf9b85585e2b7db6fc80424289134 xt/release/cpan-changes.t
+SHA1 f1df216d28e5f464bc6b68faf0b85cc0e38c7246 xt/release/kwalitee.t
+SHA1 7b52b909acf6cd52733f8f226f92147ed76a2717 xt/release/meta-json.t
+SHA1 e9a889d6b725ee070e06aae1a8ad544495322cb2 xt/release/pod-coverage.t
+SHA1 6c997f10467a193f295d4343fbd9dae699414253 xt/release/pod-linkcheck.t
+SHA1 7c4d18e54e391b89f7f983bc902c2037c50ce9f7 xt/release/pod-no404s.t
+SHA1 9934d36e45e1143c1a54658bc48872e0591af41b xt/release/pod-syntax.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iQIcBAEBAgAGBQJOjisXAAoJEOpmRc2kYGBP530P/3y/gtWBYwaZ9/Vn2rJ5spTV
+s2xZaoqNBXetoCVYyfQ6hybIZF1CO5/8hnNmKOPyan5uLqbnqiTmnpDYq4UOvJ4s
+ZiAJeqOjtYUcT2kWEK4MYb9ahvh2OSqAaIScCWKu+N3iq4iGzews4AY2K3AAFHjh
+zx82yQBCIcmAt+1hoH26RjjwmNCUC7FQ0oMowmL6T698p405NUXPxyVXBBrNuq8v
+8AJkZ5zfVOfpSQxyF+SL6nINMEfaQlWaZFWmlAYqP0of3CRkY5i+acqxJitcZFxx
+m8aSQDCoiiKV+msaaDx+AyrPQHw9vX3YLUk+qbXmsBR3KnIIhNfckV0iuFO925ZE
+KGAF3GojMWC0H3LlS2+3sbwjfYFreVLfFIN8Ro3UF6EuzrEuXH4cbjgcgNWUz6J1
+APEo2thQZ28q4bDJbINSdzHrQPcMapFCh9v4yTBFLHaOnj/YybD6wWXXTCgI4cuC
+QrpvLNW7VTOB7oF85OWjEWeXdccfzneC2MWOachOZrnrFjPOFkpNisVqsJVXsLn2
+2qrYPVat6odJnNi4mun/UZ+WSuoh9DM6OkevcDMYYKcbGmDhsy5cM1Gy5oM1SF87
+t+AjlItJ2mIJeEPbPbL0Yja+trZIcR7AgNA0GmwmZvofCc3apz0XYlD5bRElg9yH
+DvbKXMORIf6Dk0m0mPHH
+=Y1An
+-----END PGP SIGNATURE-----
