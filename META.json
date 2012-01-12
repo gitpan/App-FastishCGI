@@ -4,7 +4,7 @@
       "Ioan Rogers <ioan.rogers@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300002, CPAN::Meta::Converter version 2.112621",
+   "generated_by" : "Dist::Zilla version 4.300006, CPAN::Meta::Converter version 2.113640",
    "license" : [
       "artistic_2"
    ],
@@ -43,54 +43,26 @@
       },
       "test" : {
          "requires" : {
+            "CGI" : 0,
+            "Chart::Lines" : 0,
             "File::Find" : 0,
             "File::Temp" : 0,
-            "Test::More" : 0
+            "Test::More" : 0,
+            "YAML::Any" : 0
          }
       }
    },
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/ioanrogers/app-fastishcgi/issues"
+         "web" : "https://github.com/ioanrogers/App-FastishCGI/issues"
       },
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/ioanrogers/app-fastishcgi.git",
-         "web" : "https://github.com/ioanrogers/app-fastishcgi"
+         "url" : "git://github.com/ioanrogers/App-FastishCGI.git",
+         "web" : "https://github.com/ioanrogers/App-FastishCGI"
       }
    },
-   "version" : "0.001",
-   "x_BuiltWith" : {
-      "modules" : {
-         "AnyEvent" : "6.1",
-         "AnyEvent::FCGI" : "0.04",
-         "AnyEvent::Handle" : "6.1",
-         "Carp" : "1.23",
-         "Data::Dumper" : "2.131",
-         "File::Basename" : "2.82",
-         "File::Find" : "1.19",
-         "File::Temp" : "0.22",
-         "Getopt::Long" : "2.38",
-         "IO::Handle" : "1.31",
-         "IPC::Open3" : "1.09",
-         "Module::Build" : "0.38",
-         "Pod::Usage" : "1.36",
-         "Sys::Syslog" : "0.29",
-         "Test::More" : "0.98",
-         "strict" : "1.04",
-         "warnings" : "1.12"
-      },
-      "perl" : {
-         "original" : "v5.14.1",
-         "qv" : 1,
-         "version" : [
-            5,
-            14,
-            1
-         ]
-      },
-      "platform" : "linux"
-   }
+   "version" : "0.002"
 }
 

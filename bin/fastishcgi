@@ -1,7 +1,7 @@
-#!/usr/bin/env perl
+#!/usr/bin/perl
 
-# ABSTRACT: cgi-fastcgi bridge
 # PODNAME: fastishcgi
+# ABSTRACT: run CGI scripts through a FastCGI interface
 
 use strict;
 use warnings;
@@ -21,11 +21,11 @@ my $opt = {
 sub get_options {
 
     # TODO ipv6
-    GetOptions( $opt, 'help|h', 'manual|m', 'ip=s', 'port|p=i', 'socket|s=s', 'css=s', 'debug|D!', 'stderr!', )
+    GetOptions( $opt, 'help|h', 'longhelp', 'ip=s', 'port|p=i', 'socket|s=s', 'css=s', 'debug|D!', 'stderr!', )
         or pod2usage();
 
     pod2usage(2) if $opt->{help};
-    pod2usage(1) if $opt->{manual};
+    pod2usage(1) if $opt->{options};
     
 }
 
@@ -41,18 +41,15 @@ $app->main_loop;
 
 =head1 NAME
 
-fastishcgi - cgi-fastcgi bridge
+fastishcgi - run CGI scripts through a FastCGI interface
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 
-fastishcgi.pl [options]
-
-Options:
---help            brief help message
+fastishcgi [help] [longhelp] [ip] [port] [socket] [css] [debug] [stderr]
 
 =head1 OPTIONS
 
@@ -62,9 +59,9 @@ Options:
 
 Basic help message
 
-=item B<--manual|-m>
+=item B<--longhelp>
 
-Full manual
+Full options (this message)
 
 =item B<--ip> <ip address>
 
@@ -94,13 +91,25 @@ which usually gets logged by the webserver
 
 =back
 
+=head1 BUGS AND LIMITATIONS
+
+No bugs have been reported.
+
+Please report any bugs or feature requests through the web interface at
+L<https://github.com/ioanrogers/App-FastishCGI/issues>.
+
+=head1 SOURCE
+
+The development version is on github at L<http://github.com/ioanrogers/App-FastishCGI>
+and may be cloned from L<git://github.com/ioanrogers/App-FastishCGI.git>
+
 =head1 AUTHOR
 
 Ioan Rogers <ioan.rogers@gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2011 by Ioan Rogers.
+This software is Copyright (c) 2012 by Ioan Rogers.
 
 This is free software, licensed under:
 

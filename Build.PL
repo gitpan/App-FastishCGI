@@ -7,10 +7,13 @@ use Module::Build 0.3601;
 
 my %module_build_args = (
   "build_requires" => {
+    "CGI" => 0,
+    "Chart::Lines" => 0,
     "File::Find" => 0,
     "File::Temp" => 0,
     "Module::Build" => "0.3601",
-    "Test::More" => 0
+    "Test::More" => 0,
+    "YAML::Any" => 0
   },
   "configure_requires" => {
     "Module::Build" => "0.3601"
@@ -20,7 +23,7 @@ my %module_build_args = (
     "Ioan Rogers <ioan.rogers\@gmail.com>"
   ],
   "dist_name" => "App-FastishCGI",
-  "dist_version" => "0.001",
+  "dist_version" => "0.002",
   "license" => "artistic_2",
   "module_name" => "App::FastishCGI",
   "recommends" => {},
